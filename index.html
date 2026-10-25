@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Turizm sohasi uchun xitoy tili — audio</title>
+<style>
+:root{
+  --bg:#f7f5f0; --surface:#ffffff; --ink:#1d2430; --muted:#5d6675; --line:#e2ddd2;
+  --accent:#1f5f8b; --accent-ink:#ffffff; --accent-soft:#e3eef6; --mark:#fff3b0; --warn:#9a4b00;
+  --zh:"Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",sans-serif;
+  --ui:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;
+  --text:Georgia,"Noto Serif","Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181e; --surface:#1c222a; --ink:#e7eaee; --muted:#9aa4b2; --line:#2e3640;
+  --accent:#6fb3e0; --accent-ink:#0d1b26; --accent-soft:#1d3142; --mark:#5a4b12; --warn:#f0a35a;}}
+:root[data-theme="dark"]{
+  --bg:#14181e; --surface:#1c222a; --ink:#e7eaee; --muted:#9aa4b2; --line:#2e3640;
+  --accent:#6fb3e0; --accent-ink:#0d1b26; --accent-soft:#1d3142; --mark:#5a4b12; --warn:#f0a35a;}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ui);line-height:1.55}
+a{color:var(--accent)}
+[lang="zh"],.lzh{font-family:var(--zh)}
+.track{font-family:var(--ui);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0 16px}
+.track-label{font-size:.82rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.track audio{width:100%;display:block}
+.missing{margin-top:6px;font-size:.88rem;color:var(--warn)}
+
+.wrap{max-width:640px;margin:0 auto;padding:20px 16px 60px}
+.brand{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.9rem;color:var(--muted);margin-bottom:22px}
+.brand b{color:var(--ink)}
+.brand a{text-decoration:none;white-space:nowrap}
+.mod{font-size:.8rem;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
+h1{margin:6px 0 2px;line-height:1.2}
+h1 .n{display:block;font-size:1rem;color:var(--muted);font-weight:600}
+h1 .zh{display:block;font-family:var(--zh);font-size:2rem;font-weight:700}
+.uz{font-size:1.15rem;color:var(--muted);margin:2px 0 18px}
+.speed{display:flex;gap:6px;margin-top:8px}
+.speed button{font:inherit;font-size:.82rem;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:3px 10px;cursor:pointer}
+.speed button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.read{display:block;text-align:center;margin:18px 0;padding:12px;border-radius:12px;background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600}
+.pn{display:flex;justify-content:space-between;gap:10px}
+.pn a{flex:1;text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--surface);font-size:.9rem;color:var(--ink)}
+.pn a.next{text-align:right}
+.pn small{display:block;color:var(--muted)}
+.list h2{font-size:1rem;margin:22px 0 8px;color:var(--accent)}
+.list a{display:flex;gap:12px;align-items:baseline;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:6px 0}
+.list a .k{min-width:2.2em;font-weight:700;color:var(--accent)}
+.list a .z{font-family:var(--zh)}
+.list a .u{color:var(--muted);font-size:.9rem;display:block}
+.err{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand"><span><b>Turizm sohasi uchun xitoy tili</b> · audio</span><a href="darslik.html">Darslik →</a></div>
+  <div id="app"></div>
+</div>
+<script>
+var DATA={"modules": [{"roman": "I", "name": "Turizm xizmati asoslari"}, {"roman": "II", "name": "Toshkent va Samarqand"}, {"roman": "III", "name": "Buxoro, Xorazm va Qoraqalpog‘iston"}, {"roman": "IV", "name": "Hududlar, oshxona va hunarmandchilik"}, {"roman": "V", "name": "Kasbiy ko‘nikmalar"}], "lessons": [{"n": 1, "zh": "机场接机", "uz": "Aeroportda kutib olish", "module": "I", "m3": "Gid matni"}, {"n": 2, "zh": "入住酒店", "uz": "Mehmonxonaga joylashish", "module": "I", "m3": "Gid matni"}, {"n": 3, "zh": "认识乌兹别克斯坦", "uz": "O‘zbekiston bilan tanishuv", "module": "I", "m3": "Gid matni"}, {"n": 4, "zh": "旅行社与旅游线路", "uz": "Turoperatorda: tur paketi va narx", "module": "I", "m3": "Taqdimot matni"}, {"n": 5, "zh": "签证、入境与海关", "uz": "Viza, chegaradan o‘tish va bojxona", "module": "I", "m3": "Gid matni"}, {"n": 6, "zh": "日程安排", "uz": "Kunlik dastur va vaqtni rejalashtirish", "module": "I", "m3": "Gid matni"}, {"n": 7, "zh": "天气与季节", "uz": "Ob-havo, fasllar va kiyinish", "module": "I", "m3": "Gid matni"}, {"n": 8, "zh": "电话卡与上网", "uz": "Aloqa: SIM-karta, internet va ilovalar", "module": "I", "m3": "Gid matni"}, {"n": 9, "zh": "换钱与付款", "uz": "Bank, valyuta va to‘lovlar", "module": "I", "m3": "Gid matni"}, {"n": 10, "zh": "酒店服务问题", "uz": "Mehmonxonadagi muammolarni hal qilish", "module": "I", "m3": "Gid matni"}, {"n": 11, "zh": "塔什干一日游", "uz": "Toshkent bo‘ylab ekskursiya", "module": "II", "m3": "Gid matni"}, {"n": 12, "zh": "参观博物馆", "uz": "Muzeyda ekskursiya", "module": "II", "m3": "Gid matni"}, {"n": 13, "zh": "撒马尔罕：雷吉斯坦广场", "uz": "Samarqand: Registon maydoni", "module": "II", "m3": "Gid matni"}, {"n": 14, "zh": "帖木儿时代的建筑", "uz": "Go‘ri Amir, Bibixonim va Shohi Zinda", "module": "II", "m3": "Gid matni"}, {"n": 15, "zh": "兀鲁伯天文台与丝绸之路", "uz": "Ulug‘bek rasadxonasi va Ipak yo‘li", "module": "II", "m3": "Gid matni"}, {"n": 16, "zh": "沙赫里萨布兹：帖木儿的故乡", "uz": "Shahrisabz: Amir Temur vatani", "module": "II", "m3": "Gid matni"}, {"n": 17, "zh": "朝圣旅游：布哈里陵园与纳克什班迪陵园", "uz": "Ziyorat turizmi: Imom Buxoriy va Bahouddin Naqshband", "module": "II", "m3": "Gid matni"}, {"n": 18, "zh": "做客：走进乌兹别克家庭", "uz": "Mehmondorchilik: o‘zbek xonadoniga tashrif", "module": "II", "m3": "Gid matni"}, {"n": 19, "zh": "布哈拉古城", "uz": "Buxoro: Labi hovuz va eski shahar", "module": "III", "m3": "Gid matni"}, {"n": 20, "zh": "阿尔克城堡与卡扬宣礼塔", "uz": "Buxoro: Ark qal’asi va Minorai Kalon", "module": "III", "m3": "Gid matni"}, {"n": 21, "zh": "沙漠之旅：艾达尔湖与毡房营地", "uz": "Cho‘l safari: Aydarko‘l va o‘tov lageri", "module": "III", "m3": "Gid matni"}, {"n": 22, "zh": "希瓦：伊钦·卡拉内城", "uz": "Xiva: Ichan qal’a", "module": "III", "m3": "Gid matni"}, {"n": 23, "zh": "古代花剌子模的城堡", "uz": "Qadimgi Xorazm qal’alari (Ellik qal’a)", "module": "III", "m3": "Gid matni"}, {"n": 24, "zh": "努库斯与咸海", "uz": "Qoraqalpog‘iston: Nukus, Savitskiy muzeyi va Orol", "module": "III", "m3": "Gid matni"}, {"n": 25, "zh": "乌兹别克音乐与舞蹈", "uz": "Milliy musiqa va raqs: Shashmaqom va Lazgi", "module": "III", "m3": "Gid matni"}, {"n": 26, "zh": "纳吾肉孜节与民族节日", "uz": "Navro‘z va milliy bayramlar", "module": "III", "m3": "Gid matni"}, {"n": 27, "zh": "费尔干纳盆地", "uz": "Farg‘ona vodiysi: Marg‘ilon, Rishton va Qo‘qon", "module": "IV", "m3": "Gid matni"}, {"n": 28, "zh": "铁尔梅兹：佛教遗址", "uz": "Termiz: buddizm merosi", "module": "IV", "m3": "Gid matni"}, {"n": 29, "zh": "山区与生态旅游：奇姆甘与恰尔瓦克", "uz": "Tog‘ va ekoturizm: Chimyon va Chorvoq", "module": "IV", "m3": "Gid matni"}, {"n": 30, "zh": "乌兹别克美食", "uz": "O‘zbek oshxonasi", "module": "IV", "m3": "Gid matni"}, {"n": 31, "zh": "逛巴扎买纪念品", "uz": "Bozorda xarid va hunarmandchilik", "module": "IV", "m3": "Gid matni"}, {"n": 32, "zh": "导游的职业道德", "uz": "Gid odob-axloqi va guruh bilan ishlash", "module": "V", "m3": "Gid matni"}, {"n": 33, "zh": "看病与旅游保险", "uz": "Tibbiy yordam va sug‘urta", "module": "V", "m3": "Gid matni"}, {"n": 34, "zh": "航班延误与行李丢失", "uz": "Aviareys kechikishi va yo‘qolgan bagaj", "module": "V", "m3": "Gid matni"}, {"n": 35, "zh": "旅游文本的翻译", "uz": "Turistik matnlarni tarjima qilish", "module": "V", "m3": "Nazariy matn"}, {"n": 36, "zh": "商务旅游与代表团接待", "uz": "Ishbilarmonlik turizmi va delegatsiya qabuli", "module": "V", "m3": "Namunaviy nutq"}, {"n": 37, "zh": "商务谈判中的口译", "uz": "Muzokaralarda tarjimonlik", "module": "V", "m3": "Nazariy matn"}, {"n": 38, "zh": "中乌合作与友谊", "uz": "O‘zbekiston–Xitoy hamkorligi va do‘stligi", "module": "V", "m3": "Gid matni"}, {"n": 39, "zh": "面向中国市场的旅游营销", "uz": "Xitoy bozori uchun turizm marketingi", "module": "V", "m3": "Nazariy matn"}, {"n": 40, "zh": "交通、突发情况与送别", "uz": "Transport, kutilmagan holatlar va xayrlashuv", "module": "V", "m3": "Gid matni (A va B)"}]};
+(function(){
+  var app=document.getElementById('app');
+  var L=DATA.lessons, M={}; DATA.modules.forEach(function(m){M[m.roman]=m.name});
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function pad(n){return n<10?'0'+n:''+n}
+  // accepts ?=1, ?1, ?d=1, ?dars=1, #1
+  var m=(location.search+location.hash).match(/\d+/);
+  var n=m?parseInt(m[0],10):0;
+  var les=L.filter(function(x){return x.n===n})[0];
+
+  if(!les){
+    var h='';
+    if(m) h+='<div class="err">'+esc(n)+'-dars topilmadi. Darslikda 1–40-darslar bor.</div>';
+    h+='<div class="list">';
+    DATA.modules.forEach(function(md){
+      h+='<h2>'+md.roman+' modul. '+esc(md.name)+'</h2>';
+      L.filter(function(x){return x.module===md.roman}).forEach(function(x){
+        h+='<a href="?='+x.n+'"><span class="k">'+x.n+'</span><span><span class="z" lang="zh">'+esc(x.zh)+'</span><span class="u">'+esc(x.uz)+'</span></span></a>';
+      });
+    });
+    app.innerHTML=h+'</div>';
+    return;
+  }
+  document.title=les.n+'-dars · '+les.uz;
+  var tracks=[['1_sozlar','Yangi so‘zlar'],['2_dialog','Dialog'],['3_matn',les.m3]];
+  var h='<div class="mod">'+les.module+' modul · '+esc(M[les.module])+'</div>'+
+    '<h1><span class="n">'+les.n+'-dars</span><span class="zh" lang="zh">'+esc(les.zh)+'</span></h1>'+
+    '<p class="uz">'+esc(les.uz)+'</p>';
+  tracks.forEach(function(t){
+    h+='<div class="track"><div class="track-label">'+esc(t[1])+'</div>'+
+      '<audio controls preload="metadata" src="audio/D'+pad(les.n)+'_'+t[0]+'.mp3"></audio>'+
+      '<div class="speed"><button type="button" data-r="0.75" aria-pressed="false">0.75×</button><button type="button" data-r="1" aria-pressed="true">1×</button></div>'+
+      '<div class="missing" hidden>Bu yozuv hali joylanmagan.</div></div>';
+  });
+  h+='<a class="read" href="darslik.html#dars-'+les.n+'">Dars matnini o‘qish</a><div class="pn">';
+  var p=L.filter(function(x){return x.n===les.n-1})[0], q=L.filter(function(x){return x.n===les.n+1})[0];
+  h+=p?'<a href="?='+p.n+'"><small>← Oldingi</small>'+p.n+'. '+esc(p.uz)+'</a>':'<span style="flex:1"></span>';
+  h+=q?'<a class="next" href="?='+q.n+'"><small>Keyingi →</small>'+q.n+'. '+esc(q.uz)+'</a>':'<span style="flex:1"></span>';
+  app.innerHTML=h+'</div>';
+
+  var auds=app.querySelectorAll('audio');
+  auds.forEach(function(a){
+    var box=a.parentNode;
+    a.addEventListener('play',function(){auds.forEach(function(o){if(o!==a)o.pause()})});
+    a.addEventListener('error',function(){box.querySelector('.missing').hidden=false;box.querySelector('.speed').hidden=true});
+    box.querySelectorAll('.speed button').forEach(function(b){
+      b.addEventListener('click',function(){
+        a.playbackRate=parseFloat(b.dataset.r);
+        box.querySelectorAll('.speed button').forEach(function(o){o.setAttribute('aria-pressed',o===b)});
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>

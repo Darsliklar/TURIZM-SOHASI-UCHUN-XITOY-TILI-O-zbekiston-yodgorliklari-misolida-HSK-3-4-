@@ -1,0 +1,162 @@
+Audio fayllar shu papkaga quyidagi nomlar bilan joylanadi (jami 120 ta):
+
+1-dars. Aeroportda kutib olish
+  D01_1_sozlar.mp3   — Yangi so‘zlar
+  D01_2_dialog.mp3   — Dialog
+  D01_3_matn.mp3     — Gid matni
+2-dars. Mehmonxonaga joylashish
+  D02_1_sozlar.mp3   — Yangi so‘zlar
+  D02_2_dialog.mp3   — Dialog
+  D02_3_matn.mp3     — Gid matni
+3-dars. O‘zbekiston bilan tanishuv
+  D03_1_sozlar.mp3   — Yangi so‘zlar
+  D03_2_dialog.mp3   — Dialog
+  D03_3_matn.mp3     — Gid matni
+4-dars. Turoperatorda: tur paketi va narx
+  D04_1_sozlar.mp3   — Yangi so‘zlar
+  D04_2_dialog.mp3   — Dialog
+  D04_3_matn.mp3     — Taqdimot matni
+5-dars. Viza, chegaradan o‘tish va bojxona
+  D05_1_sozlar.mp3   — Yangi so‘zlar
+  D05_2_dialog.mp3   — Dialog
+  D05_3_matn.mp3     — Gid matni
+6-dars. Kunlik dastur va vaqtni rejalashtirish
+  D06_1_sozlar.mp3   — Yangi so‘zlar
+  D06_2_dialog.mp3   — Dialog
+  D06_3_matn.mp3     — Gid matni
+7-dars. Ob-havo, fasllar va kiyinish
+  D07_1_sozlar.mp3   — Yangi so‘zlar
+  D07_2_dialog.mp3   — Dialog
+  D07_3_matn.mp3     — Gid matni
+8-dars. Aloqa: SIM-karta, internet va ilovalar
+  D08_1_sozlar.mp3   — Yangi so‘zlar
+  D08_2_dialog.mp3   — Dialog
+  D08_3_matn.mp3     — Gid matni
+9-dars. Bank, valyuta va to‘lovlar
+  D09_1_sozlar.mp3   — Yangi so‘zlar
+  D09_2_dialog.mp3   — Dialog
+  D09_3_matn.mp3     — Gid matni
+10-dars. Mehmonxonadagi muammolarni hal qilish
+  D10_1_sozlar.mp3   — Yangi so‘zlar
+  D10_2_dialog.mp3   — Dialog
+  D10_3_matn.mp3     — Gid matni
+11-dars. Toshkent bo‘ylab ekskursiya
+  D11_1_sozlar.mp3   — Yangi so‘zlar
+  D11_2_dialog.mp3   — Dialog
+  D11_3_matn.mp3     — Gid matni
+12-dars. Muzeyda ekskursiya
+  D12_1_sozlar.mp3   — Yangi so‘zlar
+  D12_2_dialog.mp3   — Dialog
+  D12_3_matn.mp3     — Gid matni
+13-dars. Samarqand: Registon maydoni
+  D13_1_sozlar.mp3   — Yangi so‘zlar
+  D13_2_dialog.mp3   — Dialog
+  D13_3_matn.mp3     — Gid matni
+14-dars. Go‘ri Amir, Bibixonim va Shohi Zinda
+  D14_1_sozlar.mp3   — Yangi so‘zlar
+  D14_2_dialog.mp3   — Dialog
+  D14_3_matn.mp3     — Gid matni
+15-dars. Ulug‘bek rasadxonasi va Ipak yo‘li
+  D15_1_sozlar.mp3   — Yangi so‘zlar
+  D15_2_dialog.mp3   — Dialog
+  D15_3_matn.mp3     — Gid matni
+16-dars. Shahrisabz: Amir Temur vatani
+  D16_1_sozlar.mp3   — Yangi so‘zlar
+  D16_2_dialog.mp3   — Dialog
+  D16_3_matn.mp3     — Gid matni
+17-dars. Ziyorat turizmi: Imom Buxoriy va Bahouddin Naqshband
+  D17_1_sozlar.mp3   — Yangi so‘zlar
+  D17_2_dialog.mp3   — Dialog
+  D17_3_matn.mp3     — Gid matni
+18-dars. Mehmondorchilik: o‘zbek xonadoniga tashrif
+  D18_1_sozlar.mp3   — Yangi so‘zlar
+  D18_2_dialog.mp3   — Dialog
+  D18_3_matn.mp3     — Gid matni
+19-dars. Buxoro: Labi hovuz va eski shahar
+  D19_1_sozlar.mp3   — Yangi so‘zlar
+  D19_2_dialog.mp3   — Dialog
+  D19_3_matn.mp3     — Gid matni
+20-dars. Buxoro: Ark qal’asi va Minorai Kalon
+  D20_1_sozlar.mp3   — Yangi so‘zlar
+  D20_2_dialog.mp3   — Dialog
+  D20_3_matn.mp3     — Gid matni
+21-dars. Cho‘l safari: Aydarko‘l va o‘tov lageri
+  D21_1_sozlar.mp3   — Yangi so‘zlar
+  D21_2_dialog.mp3   — Dialog
+  D21_3_matn.mp3     — Gid matni
+22-dars. Xiva: Ichan qal’a
+  D22_1_sozlar.mp3   — Yangi so‘zlar
+  D22_2_dialog.mp3   — Dialog
+  D22_3_matn.mp3     — Gid matni
+23-dars. Qadimgi Xorazm qal’alari (Ellik qal’a)
+  D23_1_sozlar.mp3   — Yangi so‘zlar
+  D23_2_dialog.mp3   — Dialog
+  D23_3_matn.mp3     — Gid matni
+24-dars. Qoraqalpog‘iston: Nukus, Savitskiy muzeyi va Orol
+  D24_1_sozlar.mp3   — Yangi so‘zlar
+  D24_2_dialog.mp3   — Dialog
+  D24_3_matn.mp3     — Gid matni
+25-dars. Milliy musiqa va raqs: Shashmaqom va Lazgi
+  D25_1_sozlar.mp3   — Yangi so‘zlar
+  D25_2_dialog.mp3   — Dialog
+  D25_3_matn.mp3     — Gid matni
+26-dars. Navro‘z va milliy bayramlar
+  D26_1_sozlar.mp3   — Yangi so‘zlar
+  D26_2_dialog.mp3   — Dialog
+  D26_3_matn.mp3     — Gid matni
+27-dars. Farg‘ona vodiysi: Marg‘ilon, Rishton va Qo‘qon
+  D27_1_sozlar.mp3   — Yangi so‘zlar
+  D27_2_dialog.mp3   — Dialog
+  D27_3_matn.mp3     — Gid matni
+28-dars. Termiz: buddizm merosi
+  D28_1_sozlar.mp3   — Yangi so‘zlar
+  D28_2_dialog.mp3   — Dialog
+  D28_3_matn.mp3     — Gid matni
+29-dars. Tog‘ va ekoturizm: Chimyon va Chorvoq
+  D29_1_sozlar.mp3   — Yangi so‘zlar
+  D29_2_dialog.mp3   — Dialog
+  D29_3_matn.mp3     — Gid matni
+30-dars. O‘zbek oshxonasi
+  D30_1_sozlar.mp3   — Yangi so‘zlar
+  D30_2_dialog.mp3   — Dialog
+  D30_3_matn.mp3     — Gid matni
+31-dars. Bozorda xarid va hunarmandchilik
+  D31_1_sozlar.mp3   — Yangi so‘zlar
+  D31_2_dialog.mp3   — Dialog
+  D31_3_matn.mp3     — Gid matni
+32-dars. Gid odob-axloqi va guruh bilan ishlash
+  D32_1_sozlar.mp3   — Yangi so‘zlar
+  D32_2_dialog.mp3   — Dialog
+  D32_3_matn.mp3     — Gid matni
+33-dars. Tibbiy yordam va sug‘urta
+  D33_1_sozlar.mp3   — Yangi so‘zlar
+  D33_2_dialog.mp3   — Dialog
+  D33_3_matn.mp3     — Gid matni
+34-dars. Aviareys kechikishi va yo‘qolgan bagaj
+  D34_1_sozlar.mp3   — Yangi so‘zlar
+  D34_2_dialog.mp3   — Dialog
+  D34_3_matn.mp3     — Gid matni
+35-dars. Turistik matnlarni tarjima qilish
+  D35_1_sozlar.mp3   — Yangi so‘zlar
+  D35_2_dialog.mp3   — Dialog
+  D35_3_matn.mp3     — Nazariy matn
+36-dars. Ishbilarmonlik turizmi va delegatsiya qabuli
+  D36_1_sozlar.mp3   — Yangi so‘zlar
+  D36_2_dialog.mp3   — Dialog
+  D36_3_matn.mp3     — Namunaviy nutq
+37-dars. Muzokaralarda tarjimonlik
+  D37_1_sozlar.mp3   — Yangi so‘zlar
+  D37_2_dialog.mp3   — Dialog
+  D37_3_matn.mp3     — Nazariy matn
+38-dars. O‘zbekiston–Xitoy hamkorligi va do‘stligi
+  D38_1_sozlar.mp3   — Yangi so‘zlar
+  D38_2_dialog.mp3   — Dialog
+  D38_3_matn.mp3     — Gid matni
+39-dars. Xitoy bozori uchun turizm marketingi
+  D39_1_sozlar.mp3   — Yangi so‘zlar
+  D39_2_dialog.mp3   — Dialog
+  D39_3_matn.mp3     — Nazariy matn
+40-dars. Transport, kutilmagan holatlar va xayrlashuv
+  D40_1_sozlar.mp3   — Yangi so‘zlar
+  D40_2_dialog.mp3   — Dialog
+  D40_3_matn.mp3     — Gid matni (A va B)
